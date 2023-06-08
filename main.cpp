@@ -115,7 +115,7 @@ public:
 
 int main()
 {
-	RenderWindow window(sf::VideoMode(1366, 768), "WWW",Style::Fullscreen);
+	RenderWindow window(sf::VideoMode(1366, 768), "WWW",Style::Default);
 	view.reset(sf::FloatRect(0, 0, 640, 480));
 
 	Font font;//רנטפע 
